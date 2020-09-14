@@ -1,0 +1,50 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+.select_box {
+    border: 1px solid #cecdcd;
+    border-radius: 4px;
+}
+
+.select_box li {
+    list-style-type: none;
+    padding: 5px;
+    transition: 0.4s linear;
+}
+
+.select_box ul {
+    margin: 0;
+    padding: 0;
+}
+
+.select_box li:hover {
+    background-color: #427bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.selected_li {
+    background-color: #427bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* equal height */
+
+.equal_height {
+    box-sizing: border-box;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.equal_height>.equal_height_container {
+    display: flex;
+    width: 100%;
+}
+
+.equal_height>.equal_height_container>div {
+    width: 100%;
+}
+.error{
+    color:red;
+}
